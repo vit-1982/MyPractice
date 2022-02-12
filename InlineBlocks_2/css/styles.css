@@ -72,6 +72,9 @@ input[type="radio"].visually-hidden {
 }
 
 .img {
+  display: block;
+  height: auto;
+  max-width: 100%;
   margin-bottom: 30px;
 }
 
