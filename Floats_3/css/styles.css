@@ -172,8 +172,13 @@ body {
   margin-bottom: 30px;
 }
 
+.news-item:hover .news-img {
+  filter: grayscale(0);
+}
+
 .news-img {
   margin-bottom: 14px;
+  filter: grayscale(0.7);
 }
 
 .title {
