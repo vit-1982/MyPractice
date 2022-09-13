@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  /* background: teal; */
+  background: linear-gradient(blue, yellow);
+  min-height: 100vh;
+  counter-reset: v;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.shadow {
+  width: 200px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 10px 30px 0 green, -5px 60px 0 pink, 15px 90px 0 teal;
+  margin-bottom: 100px;
+}
+
+.name {
+  margin: 0;
+  text-transform: uppercase;
+  counter-increment: v;
+  margin-bottom: 15px;
+}
+
+.name::before {
+  content: counter(v);
+  color: purple;
+  margin-right: 10px;
+}
