@@ -85,6 +85,11 @@ input[type="radio"].visually-hidden {
   margin-left: 332px;
 }
 
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: crimson;
+}
+
 .banner {
   height: 600px;
   background: #2e2f42;
@@ -163,6 +168,14 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+.img {
+  transition: transform 0.3s linear;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
 .team {
   background: #f4f4fd;
   padding-bottom: 120px;
@@ -186,6 +199,12 @@ input[type="radio"].visually-hidden {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  transition: transform 0.3s linear;
+}
+
+.team-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .team-item img {
@@ -269,6 +288,11 @@ input[type="radio"].visually-hidden {
 
 .category-item {
   border: 1px solid #e7e9fc;
+  transition: transform 0.3s linear;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
 }
 
 .category-item:not(:nth-last-child(-n + 3)) {
