@@ -48,11 +48,11 @@ input[type="radio"].visually-hidden {
   margin-bottom: 24px;
 }
 
-/* .img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
-} */
+}
 
 .nav-menu {
   list-style: none;
